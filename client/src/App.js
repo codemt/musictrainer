@@ -10,6 +10,7 @@ import HorizontalVertical from './components/views/horizontalvertical';
 import MajorScales from './components/views/majorscales';
 import AllScales from './components/views/allscales';
 import Legatos from './components/views/legatos';
+import DashBoard from './components/dashboard';
 
 class App extends Component {
   render() {
@@ -17,7 +18,8 @@ class App extends Component {
       <Router>
       <div className="App">
         <NavBar />
-        <Route path="/" exact strict component={GuitarBasics} />
+        <Route path="/" exact strict component={DashBoard} />
+        <Route path="/guitarbasics" exact strict component={GuitarBasics} />
         <Route path="/onlyforwards" exact strict component={OnlyForwards} />
         <Route path="/forwardbackward" exact strict component={ForwardBackward} />
         <Route path="/reverse" exact strict component={Reverse} />

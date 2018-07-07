@@ -48,7 +48,7 @@ const customStyles = {
       
       renderRedirect = () => {
         if (this.state.redirect) {
-          return <Redirect to='/' />
+          return <Redirect to='/guitarbasics' />
         }
       }
       
