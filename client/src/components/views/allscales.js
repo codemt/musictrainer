@@ -15,7 +15,7 @@ const customStyles = {
       transform             : 'translate(-50%, -50%)',
     }
   };
- class OnlyForwards extends Component {
+ class AllScales extends Component {
     constructor() {
         super();
     
@@ -68,9 +68,9 @@ const customStyles = {
 
       <h2 ref={subtitle => this.subtitle = subtitle}></h2>
       <button  onClick={this.closeModal}>x</button>
-      <div>Guitar Basic Lesson 2 - Forwards & Backwards</div>
+      <div> Guitar Basic Lesson 6 - All Major Scales </div>
       <div class="video-container">
-     <iframe width="560" height="315" src="https://www.youtube.com/embed/JXQbMJLRsTU?rel=0&modestbranding=1&showinfo=0" frameBorder="0" allow="autoplay; encrypted-media">
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/LBRYG2kKgDA?rel=0&modestbranding=1&showinfo=0" frameBorder="0" allow="autoplay; encrypted-media"   allowfullscreen>
       </iframe> 
       </div> 
     </Modal>
@@ -80,4 +80,4 @@ const customStyles = {
   }
 }
 
-export default OnlyForwards;
+export default AllScales;

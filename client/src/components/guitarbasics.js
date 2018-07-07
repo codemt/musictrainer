@@ -127,8 +127,9 @@ const Default = props => <Responsive {...props} minWidth={768} />;
                         <div class="card-body">
                             <h4 class="card-title">Guitar Basic Lesson 3 - Reverse</h4>
                             <p class="card-text">Reverse - No Need to Play Forwards to do the reverse movement. This technique helps to  play really fast parts of any song easily.</p>
-                            <button type="button" class="btn btn-primary" onClick={this.openModal}>View Now </button>
-                            
+                            <Link to='/reverse'>
+                            <button type="button" class="btn btn-primary">View Now </button>
+                            </Link>
                         </div>
                         </div>
                     </div>
@@ -138,7 +139,9 @@ const Default = props => <Responsive {...props} minWidth={768} />;
                         <div class="card-body">
                             <h4 class="card-title">Guitar Basic Lesson 4 - Horizontal and Vertical</h4>
                             <p class="card-text">Horizontal and Vertical - Combining both Forwards and Reverse Techniques this lesson helps you to understand how to use them both.</p>
+                            <Link to='/horizontalvertical'>
                             <button type="button" class="btn btn-primary">View Now </button>
+                            </Link>
                         </div>
                         </div>
                     </div>
@@ -148,7 +151,9 @@ const Default = props => <Responsive {...props} minWidth={768} />;
                         <div class="card-body">
                             <h4 class="card-title">Guitar Basic Lesson 5 - 3 Major Scales</h4>
                             <p class="card-text"> Major Scales - Basic three Major scales lessons on the guitar.</p>
+                            <Link to='/majorscales'>
                             <button type="button" class="btn btn-primary">View Now </button>
+                            </Link>
                         </div>
                         </div>
                     </div>
@@ -158,7 +163,9 @@ const Default = props => <Responsive {...props} minWidth={768} />;
                         <div class="card-body">
                             <h4 class="card-title">Guitar Basic Lesson 6 - All Major Scales</h4>
                             <p class="card-text">  Major Scales - Playing the 7 Major Scales on the Guitar.</p>
+                            <Link to='/allscales'>
                             <button type="button" class="btn btn-primary">View Now </button>
+                            </Link>
                         </div>
                         </div>
                     </div>
@@ -168,7 +175,9 @@ const Default = props => <Responsive {...props} minWidth={768} />;
                         <div class="card-body">
                             <h4 class="card-title">Guitar Basic Lesson 7 - Legatos</h4>
                             <p class="card-text">Legatos - A very important lesson on the guitar. Learning this  technique is what makes one a good lead guitarist.</p>
+                            <Link to='/legatos'>
                             <button type="button" class="btn btn-primary">View Now </button>
+                            </Link>
                         </div>
                         </div>
                     </div>
