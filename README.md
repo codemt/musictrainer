@@ -1,1 +1,0 @@
-# Trainer-MERN-App
